@@ -3,7 +3,7 @@ workflows:
     name: Ehliyet Sınav - Android APK (Debug)
     max_build_duration: 60
     environment:
-      node: 20.11.1
+      node: 20.19.4
       java: 17
       vars:
         PACKAGE_NAME: "com.ehliyet.sinavsorulari"
