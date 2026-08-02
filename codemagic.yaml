@@ -35,9 +35,3 @@ workflows:
     artifacts:
       - android/app/build/outputs/**/*.apk
 
-    publishing:
-      email:
-        recipients: []
-        notify:
-          success: true
-          failure: true
