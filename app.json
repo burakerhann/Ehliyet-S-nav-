@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Ehliyet Sınav Soruları",
+    "slug": "ehliyet-sinav-sorulari",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#0B57D0"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ehliyet.sinavsorulari"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B57D0"
+      },
+      "package": "com.ehliyet.sinavsorulari"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
