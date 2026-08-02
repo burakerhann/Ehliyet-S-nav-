@@ -27,10 +27,10 @@ workflows:
         script: |
           cd android && ./gradlew --version
 
-      - name: Debug APK derle (imzasız, test amaçlı)
+      - name: Release APK derle (JS paketlenmiş, test amaçlı)
         script: |
           cd android
-          ./gradlew assembleDebug
+          ./gradlew assembleRelease
 
     artifacts:
       - android/app/build/outputs/**/*.apk
