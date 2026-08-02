@@ -17,7 +17,7 @@ workflows:
       - name: Bağımlılıkları yükle
         script: |
           npm install
- npx expo install --fix
+          npx expo install --fix
       - name: Native Android projesini oluştur (Expo Prebuild)
         script: |
           npx expo prebuild --platform android --no-install
